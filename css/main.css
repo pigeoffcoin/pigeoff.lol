@@ -1,9 +1,35 @@
-.bg-overlay {
+.masthead {
     background: url("../images/pigeon_pigeoff.jpg");
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
-    background-position: center center;
+    position: relative;
     color: #fff;
-    height: 780px;
-    padding-top: 50px;
+    min-height: 100vh;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#chart {
+  color: white;
+}
+
+#twitter {
+  color: #14171A;
+}
+
+#telegram {
+  color: #229ED9;
+}
+
+@media (max-width:  768px) {
+  .masthead {
+    min-height: 50vh;
+  }
+  h1 {
+    font-size: calc(1.525em + 3.3vw);
+  }
+
 }

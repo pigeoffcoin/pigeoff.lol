@@ -26,10 +26,9 @@ h1 {
 
 @media (max-width:  768px) {
   .masthead {
-    min-height: 50vh;
+    min-height: 30vh;
   }
   h1 {
-    font-size: calc(1.525em + 3.3vw);
+    font-size: calc(1.525em + 3vw);
   }
-
 }
